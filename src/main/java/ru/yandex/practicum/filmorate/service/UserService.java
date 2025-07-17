@@ -13,7 +13,6 @@ import java.util.Set;
 @RequiredArgsConstructor
 @Service
 public class UserService {
-
     private final UserStorage userStorage;
 
     public Collection<User> getUsers() {
