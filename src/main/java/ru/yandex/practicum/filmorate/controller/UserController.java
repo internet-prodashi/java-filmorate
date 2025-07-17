@@ -22,7 +22,7 @@ public class UserController {
     }
 
     @PostMapping
-    public User createFilm(@Valid @RequestBody User user) {
+    public User createUser(@Valid @RequestBody User user) {
         return userService.createUser(user);
     }
 
